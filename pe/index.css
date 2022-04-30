@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(header.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-attachment: local;
+}
+
+header {
+    height: 250px;
+
+}
+
+.header {
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: whitesmoke;
+    position: absolute;
+    top: 30px;
+}
+
+.author {
+    padding: 20px;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    top: 225px;
+}
+
+nav a {
+    display: flex;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 15%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 85%;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin: 0px 0.8%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.head {
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h2 {
+    margin: 25px;
+}
+
+p {
+    margin: 25px;
+}
+
+.contents {
+    font-size: 20px;
+    line-height: 200%;
+    text-indent: 50px;
+}
+
+div a {
+    font-size: 15px;
+}
+
+.end {
+    font-size: 15px;
+    text-align: right;
+}
+
+/* .chapter_list {
+    display: flex;
+    justify-content: space-between;
+} */
+
+ul {
+    margin: 5px;
+    width: 300px;
+    padding-right: 10px;
+}
+
+footer {
+    background-color: rgba(225, 225, 225, 0.95);
+    height: 100px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    height: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: black;
+    text-decoration: none;
+}
