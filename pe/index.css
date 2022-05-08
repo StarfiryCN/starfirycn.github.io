@@ -73,6 +73,13 @@ main {
     font-weight: bolder;
 }
 
+.chapter_head {
+    font-size: 35px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 h2 {
     margin: 25px;
 }
@@ -96,10 +103,22 @@ div a {
     text-align: right;
 }
 
-/* .chapter_list {
+.chapter_list_in {
     display: flex;
     justify-content: space-between;
-} */
+    font-weight: bold;
+    width: auto;
+
+}
+
+.chapter_list_in ul  {
+    display: flex;
+    justify-content: center;
+}
+
+.chapter_list_in ul a {
+    font-size: 20px;
+}
 
 ul {
     margin: 5px;
