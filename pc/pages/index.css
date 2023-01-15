@@ -1,114 +1,132 @@
-body {
-  background-color: rgb(210, 210, 210);
-  height: 100vh;
-  overflow: auto;
-}
-
 * {
-  margin: 0px;
-  padding: 0px;
-}
-
-header {
-  background-image: url(../../header.jpg);
-  background-size: cover;
-}
-
-.title {
-  padding: 50px;
-  font-size: 50px;
-  color: rgb(234, 234, 234);
+    margin: 0px;
+    padding: 0px;
 }
 
 .author {
-  padding: 20px;
-  padding-left: 50px;
-  color: rgb(234, 234, 234);
+    padding: 20px;
+    padding-left: 50px;
+    color: rgb(234, 234, 234);
 }
 
-nav {
-  display: flex;
-  background-color: rgb(200, 230, 200);
+.bar {
+    font-size: 15px;
+    text-align: left;
+    max-height: 400px;
+    overflow: auto;
 }
 
-nav ul {
-  width: 80px;
-  padding-inline: 20px;
-  padding-block: 10px;
-  text-align: center;
+body {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    overflow: auto;
 }
 
-nav ul a {
-  font-style: unset;
-  font-size: 20px;
-  color: black;
-  font-weight: 600;
-  text-decoration: none;
+.chapter_body {
+    width: 80%;
+    margin: auto;
 }
 
-.this {
-  background-color: rgb(170, 200, 170);
+.chapter {
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
-nav ul:hover {
-  background-color: rgb(170, 200, 170);
+.chapter_foot {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    width: auto;
+    padding: 40px 0;
 }
 
-.quote {
-  font-style: unset;
-  color: black;
-  text-decoration: none;
+.chapter_foot ul {
+    display: flex;
+    justify-content: center;
 }
 
-footer {
-  background-color: rgb(160, 170, 160);
-  text-align: center;
-  margin-top: 10px;
-  padding: 10px;
+.chapter_foot ul a {
+    font-size: 35px;
+}
+
+.chapter h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chapter h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+
+.chapter_list {
+    display: flex;
+}
+
+.chapter_nav {
+    width: 95%;
+    margin: auto;
+}
+
+.chapter_title {
+    height: 50px;
+}
+
+.chapter_list ul {
+    width: 33%;
+    height: 30px;
 }
 
 .content {
-  margin: 10px;
-  padding: 40px;
-  border-radius: 10px;
-  background-color: rgb(230, 250, 230);
+    width: 70%;
 }
 
-.subtitle {
-  font-size: 40px;
-  text-align: center;
-}
-
-.text {
-  font-size: 20px;
-  line-height: 40px;
-  text-indent: 40px;
+.div_title {
+    font-size: 30px;
+    text-align: center;
 }
 
 .end {
-  text-align: right;
-  font-size: 20px;
-  line-height: 40px;
-  text-indent: 40px;
+    text-align: right;
+    font-size: 20px;
+    line-height: 40px;
+    text-indent: 40px;
+}
+
+footer {
+    background-color: rgb(160, 170, 160);
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background-image: url(../../header.jpg);
+    background-size: cover;
+}
+
+.left {
+    padding-left: 20%;
+}
+
+.leftbar {
+    width: 75%;
+    float: left;
+}
+
+li {
+    padding: 2px;
 }
 
 main {
     width: 100%;
-}
-
-.leftbar {
-  width: 20%;
-  float: left;
-}
-
-.middle {
-    width: 60%;
-    float: left;
-}
-
-.rightbar {
-    width: 20%;
-    float: left;
+    padding: 100px 0;
+    border-top: 2px solid rgb(210, 210, 210);
+    border-bottom: 2px solid rgb(210, 210, 210);
 }
 
 main:after {
@@ -119,32 +137,66 @@ main:after {
     visibility: hidden;
 }
 
-.div_title {
-    font-size: 30px;
+nav {
+    background-color: rgb(200, 230, 200);
+    display: flex;
+}
+
+nav ul {
+    width: 80px;
+    padding-inline: 20px;
+    padding-block: 10px;
     text-align: center;
 }
 
-.bar {
-    font-size: 15px;
-    text-align: left;
-    height: 400px;
-    overflow: auto;
+nav ul a {
+    font-style: unset;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav ul:hover {
+    background-color: rgb(170, 200, 170);
+}
+
+.quote {
+    font-style: unset;
+    color: black;
+    text-decoration: none;
+}
+
+.right {
+    padding-right: 30%;
+}
+
+.rightbar {
+    width: 25%;
+    float: left;
+}
+
+.subtitle {
+    font-size: 40px;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 40px;
+    text-indent: 40px;
+}
+
+.this {
+    background-color: rgb(170, 200, 170);
+}
+
+.title {
+    padding: 50px;
+    font-size: 50px;
+    color: rgb(234, 234, 234);
 }
 
 ::-webkit-scrollbar {
     display: none;
-}
-
-li {
-    padding: 2px;
-}
-
-.chapter_list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.quote {
-  color: black;
-  text-decoration: none;
 }
