@@ -1,57 +1,117 @@
 <!DOCTYPE html>
 <html lang="zh">
-<script>
-    if (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
-        window.location.href = "../../pe/pages/characters.html" //手机
-    }
-</script>
+    <script>
+        if (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
+            window.location.href = "../../pe/pages/characters.html" //手机
+        }
+    </script>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Starfiry" />
-    <meta name="description" content="《奇妙动物森林》官方网站" />
-    <meta name="keywords" content="奇妙动物森林" />
-    <link rel="stylesheet" href="index.css" />
-    <title>奇妙动物森林</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Starfiry" />
+        <meta name="description" content="《奇妙动物森林》官方网站" />
+        <meta name="keywords" content="奇妙动物森林" />
+        <link rel="stylesheet" href="index.css" />
+        <script src="characters.js"></script>
+        <title>奇妙动物森林</title>
+    </head>
 
-<body>
-    <header>
-        <div>
-            <h1 class="title">奇妙动物森林</h1>
-            <h3 class="author">星灏炎 著</h3>
-        </div>
-        <nav>
-            <ul>
-                <a href="home.html">主页</a>
-            </ul>
-            <ul class="this">
-                <a>角色介绍</a>
-            </ul>
-            <ul>
-                <a href="chapters.html">章节</a>
-            </ul>
-            <ul>
-                <a href="story.html">幕后故事</a>
-            </ul>
-            <ul>
-                <a href="support.html">支持作者</a>
-            </ul>
-            <ul>
-                <a href="bbs.html">进入圈子</a>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div></div>
-    </main>
-    <footer>
-        <p>网站所有:Starfiry</p>
-        <p>服务提供:<a href="https://www.github.com" class="quote">www.github.com</a></p>
-        <p>访问项目:<a href="https://github.com/Starfirycn/Starfirycn.github.io" class="quote">点击跳转</a></p>
-    </footer>
-</body>
+    <body>
+        <header>
+            <div>
+                <h1 class="title">奇妙动物森林</h1>
+                <h3 class="author">星灏炎 著</h3>
+            </div>
+            <nav>
+                <ul>
+                    <a href="home.html">主页</a>
+                </ul>
+                <ul class="this">
+                    <a>角色介绍</a>
+                </ul>
+                <ul>
+                    <a href="chapters.html">章节</a>
+                </ul>
+                <ul>
+                    <a href="story.html">幕后故事</a>
+                </ul>
+                <ul>
+                    <a href="support.html">支持作者</a>
+                </ul>
+                <ul>
+                    <a href="bbs.html">进入圈子</a>
+                </ul>
+            </nav>
+        </header>
 
+        <main>
+            <div class="sidebar">
+                <ul>
+                    <li id="CastorFiberTag">河狸</li>
+                    <li id="MoleTag">鼹鼠</li>
+                    <li id="MouseTag">老鼠</li>
+                    <li>猴子</li>
+                    <li>毛熊</li>
+                    <li>蛤蟆</li>
+                    <li>兔子</li>
+                    <li>河马</li>
+                    <li>猪</li>
+                    <li>猫头鹰</li>
+                    <li>水獭</li>
+                    <li>北极熊</li>
+                    <li>浣熊</li>
+                </ul>
+            </div>
+            <div class="CastorFiber" id="CastorFiber">
+                <div class="chara_text">
+                    <h2>河狸</h2>
+                    <br />
+                    <h4>·失败的梦想家</h4>
+                    <p>　　有理想却无法实现，在路上却总是徘徊。</p>
+                    <br />
+                    <h4>·卓越的建筑师</h4>
+                    <p>　　上能建十里大坝，下能造八角方亭。</p>
+                    <br />
+                    <p>　　动物森林最早的一批居民，最好的朋友是鼹鼠和猴子。他喜好建筑，热心助动物，但不善于表达，常常处于沉默的状态。在遇到鼹鼠前总是独来独往，常年与孤独为伴，极度缺乏安全感，需要陪伴与关爱，所以对朋友有很高的要求，也很容易被别人简单的关心感动。</p>
+                </div>
+                <div class="chara_img"><img src="../../CastorFiber.jpg" alt="河狸" /></div>
+            </div>
+            <div class="Mole" id="Mole">
+                <div class="chara_text">
+                    <h2>鼹鼠</h2>
+                    <br />
+                    <h4>·智慧的愚公</h4>
+                    <p>　　看似不谙世事，实则洞悉万千。</p>
+                    <br />
+                    <h4>·圣者</h4>
+                    <p>　　以君子之行领万物，凭圣者之心感天地。</p>
+                    <br />
+                    <p>　　第十二鼹鼠群族长之子，因意外遗留动物森林，与河狸成为朋友。他生性活泼乐观，包容性强，受到大家喜爱。大多时间与河狸呆在一起，喜欢听河狸讲故事，虽然曾有过不少矛盾，但始终不离不弃，是河狸的精神支柱。</p>
+                </div>
+                <div class="chara_img"><img src="../../Mole.jpg" alt="鼹鼠" /></div>
+            </div>
+            <div class="Mouse" id="Mouse">
+                <div class="chara_text">
+                    <h2>老鼠</h2>
+                    <br />
+                    <h4>·成熟的小孩子</h4>
+                    <p>　　外独当一面，内童心未泯。</p>
+                    <br />
+                    <h4>·学富五车</h4>
+                    <p>　　上知天文，下知地理。</p>
+                    <br />
+                    <p>　　动物森林最早的一批居民，与河狸共处数年而不见，后经猴子牵线熟识，成为朋友。在不熟的动物面前，他成熟稳重，沉默不语，在熟悉动物面前，他活泼好动，机灵可爱。其对世界有自己独到的见解，仿佛跳脱世外，又沉沦其中。</p>
+                </div>
+                <div class="chara_img"><img src="../../Mouse.jpg" alt="老鼠" /></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>网站所有:Starfiry</p>
+            <p>服务提供:<a href="https://www.github.com" class="quote">www.github.com</a></p>
+            <p>访问项目:<a href="https://github.com/Starfirycn/Starfirycn.github.io" class="quote">点击跳转</a></p>
+        </footer>
+    </body>
 </html>
