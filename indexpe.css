@@ -29,6 +29,7 @@ body {
 
 .CastorFiber {
     margin: 0 5%;
+    flex-direction: column;
 }
 
 .chapter_body {
@@ -157,11 +158,13 @@ main:after {
 .Mole {
     display: none;
     margin: 0 5%;
+    flex-direction: column;
 }
 
 .Mouse {
     display: none;
     margin: 0 5%;
+    flex-direction: column;
 }
 
 nav {
