@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.author {
+    font-size: 2vw;
+    padding-bottom: 5vmin;
+    padding-left: 5vmin;
+    color: rgb(234, 234, 234);
+}
+
+.bar {
+    font-size: medium;
+    text-align: left;
+    max-height: 50vmin;
+    overflow: auto;
+}
+
+.bbs {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    overflow: auto;
+    min-width: 1190px;
+    max-width: 2000px;
+}
+
+.CastorFiber {
+    display: flex;
+    float: left;
+    width: 80vw;
+    padding-right: 5vw;
+}
+
+.chapter_body {
+    width: 80%;
+    margin: auto;
+}
+
+.chapter {
+    width: 80vw;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.chapter_foot {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    width: auto;
+    padding: 5vmin 0;
+}
+
+.chapter_foot ul {
+    display: flex;
+    justify-content: center;
+}
+
+.chapter_foot ul a {
+    font-size: 4vmin;
+}
+
+.chapter h1 {
+    font-size: 7vmin;
+    padding-bottom: 5vmin;
+    display: flex;
+    justify-content: center;
+}
+
+.chapter h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: -4vmin;
+    padding-bottom: 5vmin;
+}
+
+.chapter_list {
+    display: flex;
+}
+
+.chapter_title {
+    height: 6vmin;
+}
+
+.chapter_list ul {
+    width: 33%;
+    height: 4vmin;
+}
+
+.chara_img {
+    padding-left: 10vmin;
+}
+
+.chara_img img {
+    height: 30vmin;
+    width: 30vmin;
+}
+.chara_text {
+    width: 70%;
+}
+
+.content {
+    width: 70%;
+}
+
+.desire {
+    text-align: center;
+}
+
+.div_title {
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.end {
+    text-align: right;
+    font-size: normal;
+    line-height: 200%;
+}
+
+footer {
+    background-color: rgb(160, 170, 160);
+    text-align: center;
+    padding: 1vmin;
+}
+
+header {
+    background-image: url(img/header.jpg);
+    background-size: cover;
+}
+
+.left {
+    padding-left: 15vw;
+}
+
+.leftbar {
+    width: 75%;
+    float: left;
+}
+
+li {
+    padding: 0.5vmin;
+}
+
+main {
+    width: 100%;
+    padding: 10vmin 0;
+    border-top: 2px solid rgb(210, 210, 210);
+    border-bottom: 2px solid rgb(210, 210, 210);
+}
+
+main:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.Mole {
+    display: none;
+    float: right;
+    width: 80vw;
+    padding-right: 5vw;
+}
+
+.Mouse {
+    display: none;
+    float: right;
+    width: 80vw;
+    padding-right: 5vw;
+}
+
+nav {
+    background-color: rgb(200, 230, 200);
+    display: flex;
+}
+
+nav ul {
+    width: 7%;
+    padding-inline: 2%;
+    padding-block: 1%;
+    text-align: center;
+}
+
+nav ul a {
+    font-style: unset;
+    font-size: 150%;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav ul:hover {
+    background-color: rgb(170, 200, 170);
+}
+
+.quote {
+    font-style: unset;
+    color: black;
+    text-decoration: none;
+}
+
+.right {
+    padding-right: 30%;
+}
+
+.rightbar {
+    width: 25%;
+    float: left;
+}
+
+.sidebar {
+    display: flex;
+    height: auto;
+    float: left;
+    width: 15vw;
+}
+
+.sidebar ul {
+    width: 10vw;
+    padding-left: 3vw;
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    display: flex;
+    height: 4vmin;
+    font-size: 110%;
+    align-items: center;
+    justify-content: center;
+}
+
+.story {
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+}
+
+.support img {
+    width: 33%;
+    margin: auto;
+}
+
+.text {
+    font-size: 150%;
+    line-height: 200%;
+}
+
+.this {
+    background-color: rgb(170, 200, 170);
+}
+
+.title {
+    padding: 5vmin;
+    font-size: 8vmin;
+    color: rgb(234, 234, 234);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
